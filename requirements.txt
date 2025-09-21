@@ -6,3 +6,4 @@ langchain-google-genai
 langchain-community
 langchain-huggingface
 sentence-transformers
+faiss-cpu==1.7.4
