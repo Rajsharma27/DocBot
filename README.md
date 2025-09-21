@@ -70,7 +70,7 @@ This project simplifies the way you extract insights from PDFs: upload → proce
 git clone https://github.com/your-username/rag-pdf-chatbot.git
 cd rag-pdf-chatbot
 
-### Install dependencies:
-'''bash
-pip install -r requirements.txt
+
+
+
 
