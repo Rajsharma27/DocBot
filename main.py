@@ -7,7 +7,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_community.vectorstores import FAISS
-from langchain.chains import ConversationalRetrievalChain
+from langchain.chains.conversational_retrieval.base import ConversationalRetrievalChain
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.memory import ConversationBufferMemory
 from langchain.text_splitter import CharacterTextSplitter
@@ -189,3 +189,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
