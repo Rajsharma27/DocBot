@@ -1,10 +1,11 @@
 streamlit
 python-dotenv
-pypdf
 langchain
+langchain-community
 langchain-core
 langchain-google-genai
-langchain-community
 langchain-huggingface
+faiss-cpu
+pypdf
 sentence-transformers
-faiss-cpu>=1.9.0
+google-generativeai
