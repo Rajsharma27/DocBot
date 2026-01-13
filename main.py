@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader
 from pypdf import PdfReader
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_community.vectorstores import FAISS
 from langchain.chains import ConversationalRetrievalChain
@@ -189,3 +188,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
